@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.primary-header {
+  background: gray;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  transition: background-color 500ms;
+}
+
+.primary-header.sticking {
+  background: white;
+}
+
+.primary-header__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav-list li {
+  margin: 0 4rem;
+}
+
+.wrapper {
+  background: pink;
+  height: 3000px;
+}
